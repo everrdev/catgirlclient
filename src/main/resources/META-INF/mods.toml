@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[44,)"
+license="All rights reserved"
+[[mods]]
+modId="cc"
+version="${file.jarVersion}"
+logoFile="assets/cc/catgirlclient.png"
+displayName="Catgirl Client"
+credits="Thanks for this piece of bad code goes to everr#0001"
+authors="everr#0001"
+displayTest="IGNORE_ALL_VERSION"
+description='''
+Now comes with 97% more catgirls!
+'''
+[[dependencies.cc]]
+    modId="forge"
+    mandatory=true
+    versionRange="[44,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.cc]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.3,1.20)"
+    ordering="NONE"
+    side="BOTH"
